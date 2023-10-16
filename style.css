@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.quiz-container {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* 添加相对定位 */
+}
+
+.quiz-container::before {
+    content: "";
+    background-image: url("—Pngtree—marble\ texture\ yellow\ poster\ ad_1043131.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quiz-container-top{
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    border: solid 1px;
+    width:90%;
+    height:40%;
+}
+
+
+h1 {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 20px 40px;
+    border: solid 1px;
+}
+#question{
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size:large ;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px 10px 10px;
+    border: solid 1px; 
+    white-space: pre-line;
+}
+
+.options {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}/*管理所有按鈕設定*/
+
+.option {
+    font-size:large ;
+    width: 120vw;
+    height: 50vh ;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-color: rgb(0, 0, 0);
+    border-style: solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+}/*管理單個個別按鈕設定*/
+
+.option-disabled  {
+    cursor: default;
+}
+
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    border: solid 1px;
+
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+    position: absolute;
+    top: 94%; /* 定位到容器的垂直下方 */
+    left: 75%; /* 定位到容器的水平中間偏右 */
+}
+#ending {
+    background-color: transparent;
+    width: 350vw;
+    height: 100vh ;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+    border: solid 1px rgb(null);
+
+    font-size:x-large ;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+    position: absolute;
+    top: 55%; /* 定位到容器的中間 */
+    left: 20%; /* 定位到容器的水平中間偏左 */
+    z-index: 1;
+    white-space: pre-line;
+}
+
+/* 新的題目和選項默認不可見 */
+#ending, #result, #question, .option {
+    opacity: 0;
+    transition: opacity 0.9s ease; /* 添加淡入淡出過渡效果 */
+}
+
+/* 激活狀態下可見 */
+#ending.active, #result.active, #question.active, .option.active {
+    opacity: 1;
+}
+
+
