@@ -2049,7 +2049,7 @@
 .hvr-ripple-in:before {
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #ffffff solid 4px;
   top: -12px;
   right: -12px;
   bottom: -12px;
