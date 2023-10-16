@@ -12,10 +12,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    margin: 20px;
+    margin: 10x;
     border: solid 1px;
-    width: 40vw;
-    height: 130vh;
+    width: 500px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,17 +45,14 @@ body {
     margin: 5px;
     border: solid 1px;
     width:90%;
-    height:40%;
+    height:20%;
 }
 
 
-h1 {
-    background-color: #ffffff;
+h2 {
     color: #333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px 40px 20px 40px;
-    border: solid 1px;
+    padding: 10px 30px 10px 30px;
+
 }
 #question{
     background-color: #ffffff;
