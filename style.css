@@ -23,7 +23,7 @@ body {
 
 .quiz-container::before {
     content: "";
-    background-image: url("Yellow_Balck.png");
+    background-image: url("3.png");
     position: absolute;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ body {
     background-size: cover;
 }
 .top{
-    background-image: url("galaxy-space-blue-background-vector.jpg");
+    background-image: url("");
     z-index: -1;
     background-color: transparent;
     border: solid 1px;
@@ -46,21 +46,21 @@ body {
 
 }
 h2 {
-    color: #FEDD01;
+    color: #000000;
     font-weight: bold;
 
 }
 
 .quiz-container-top{
 
-    background-color: #ffffff;
-    border-radius: 10px;
+    background-color: transparent;
+    /*border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 5px 5px 5px 5px;
     margin: 5px;
-    border: solid 1px;
+    border: solid 0px;*/
     width:90%;
-    height:20%;
+    height:25%;
 }
 
 #question{
@@ -73,7 +73,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: solid 1px; */
-    padding: 10px 10px 10px 10px;
+    padding: 60px 50px 60px 50px;
 
     white-space: pre-line;
 }
@@ -82,7 +82,7 @@ h2 {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }/*管理所有按鈕設定*/
 
 .option {
@@ -125,18 +125,15 @@ h2 {
     width: 60%;
     height: 10% ;
 
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 5px 15px 5px 15px;
     margin: 5px;
-    border: solid 1px rgb(null);
 
     font-size:x-large ;
     font-weight: bold;
     color: rgb(41, 147, 234);
     margin-top: 10px;
     position: absolute;
-    top: 55%; /* 定位到容器的中間 */
+    top: 65%; /* 定位到容器的中間 */
     left: 17%; /* 定位到容器的水平中間偏左 */
     z-index: 1;
     white-space: pre-line;

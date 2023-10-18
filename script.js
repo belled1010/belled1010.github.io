@@ -96,10 +96,10 @@ function checkAnswer(selectedOption) {
                 endingElement.textContent = "問答結束。\n恭喜你全答對，你現在已經是板金小老師了！"; 
             }
             else if(0 < score < questions.length){
-                endingElement.textContent = "問答結束。\n你答對了"+ score +"分，不妨在試一試吧！"; 
+                endingElement.textContent = "問答結束。\n你答對了"+ score +"題，不妨在試一試吧！"; 
             }
             else if (score == 0){
-                endingElement.textContent = "問答結束。\n不妨在試一試吧！" ;
+                endingElement.textContent = "問答結束。\n不妨再試一試吧！" ;
             }
 
            
