@@ -124,10 +124,10 @@ function checkAnswer(selectedOption) {
             disableOptions(); // 調用禁止選項按鈕並更改鼠標指示樣式
 
             if(score == questions.length ){
-                endingElement.textContent = "問答結束。\n恭喜你全答對，你現在已經是板金小老師了！"; 
+                endingElement.textContent = "問答結束。\n恭喜你全答對，榮獲台華認證板金小老師，前途不可限量！\n11月咖啡展歡迎來找我們玩哦！"; 
             }
             else if(0 < score && score < questions.length){
-                endingElement.textContent = "問答結束。\n你答對了"+ score +"題，不妨在試一試吧！"; 
+                endingElement.textContent = "問答結束。\n你答對了"+ score +"題，不如再玩一次找出所有的正確答案！\n別忘了，11月咖啡展記得來和我們玩哦～"; 
             }
             else if (score == 0){
                 endingElement.textContent = "問答結束。\n不妨再試一試吧！" ;
