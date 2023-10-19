@@ -173,7 +173,7 @@ body {
 
     margin-top: 10px;
     position: absolute;
-    top: 35%; /* 定位到容器的中間 */
+    top: 30%; /* 定位到容器的中間 */
     left: 10%; /* 定位到容器的水平中間偏左 */
     z-index: 1;
     white-space: pre-line;
