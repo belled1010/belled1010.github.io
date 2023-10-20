@@ -159,6 +159,23 @@ body {
     top: 45%;
 }
 
+#thank {
+    font-size: 60px ;
+    width: 85%;
+    height: 25% ;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    color: #2E1B5B;
+    text-shadow: 2px 2px 4px rgb(177, 204, 230);
+    font-family: 'Pixelify Sans', Arial, sans-serif;
+    font-weight: bold;
+    top: 10%;
+
+}
+
 #ending {
     width: 70%;
     height: 10% ;
@@ -166,14 +183,14 @@ body {
     padding: 5px 15px 5px 15px;
     margin: 5px;
 
-    font-size:x-large ;
+    font-size: large ;
     font-weight: bold;
     color: #2E1B5B;
     text-shadow: 2px 2px 4px rgb(177, 204, 230);
 
     margin-top: 10px;
     position: absolute;
-    top: 30%; /* 定位到容器的中間 */
+    top: 35%; /* 定位到容器的中間偏上 */
     left: 10%; /* 定位到容器的水平中間偏左 */
     z-index: 1;
     white-space: pre-line;

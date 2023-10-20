@@ -46,6 +46,7 @@ optionsElements.forEach(option => {
 questionElement.style.display = 'none';
 resultElement.style.display = 'none';
 endingElement.style.display = 'none';
+document.getElementById("thank").style.display = 'none';
 
 
 function displayQuestion() {
@@ -122,12 +123,13 @@ function checkAnswer(selectedOption) {
             questionElement.style.display = 'none';
             endingElement.style.display = 'inline';
             disableOptions(); // 調用禁止選項按鈕並更改鼠標指示樣式
+            document.getElementById("thank").style.display = 'inline';
 
             if(score == questions.length ){
-                endingElement.textContent = "問答結束。\n恭喜你全答對，榮獲台華認證\n板金小老師，前途不可限量！\n\n11月咖啡展歡迎來找我們玩哦！"; 
+                endingElement.textContent = "問答結束。\n恭喜你全答對，榮獲台華認證板金小老師，前途不可限量！\n\n11月咖啡展歡迎來找我們玩哦！"; 
             }
             else if(0 < score && score < questions.length){
-                endingElement.textContent = "問答結束。\n你答對了"+ score +"題，不如再玩一次找出所有的正確答案！\n\n別忘了，11月咖啡展記得來和我們玩哦～"; 
+                endingElement.textContent = "問答結束。你答對了"+ score +"題，\n不如再玩一次找出所有的正確答案！\n\n別忘了，11月咖啡展記得來和我們玩哦～"; 
             }
             else if (score == 0){
                 endingElement.textContent = "問答結束。\n不妨再試一試吧！" ;
