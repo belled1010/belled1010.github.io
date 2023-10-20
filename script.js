@@ -44,10 +44,6 @@ optionsElements.forEach(option => {
     option.style.display = "none";
 });
 questionElement.style.display = 'none';
-resultElement.style.display = 'none';
-endingElement.style.display = 'none';
-document.getElementById("thank").style.display = 'none';
-
 
 function displayQuestion() {
 
@@ -99,7 +95,7 @@ function checkAnswer(selectedOption) {
         correctSound.play();
         setTimeout(() => {
             resultElement.style.animation = 'none';
-        },100)
+        },1000)
     } else {
         resultElement.style.display = 'inline';
         resultElement.style.animation = 'fadeIn 1s forwards';
@@ -107,7 +103,7 @@ function checkAnswer(selectedOption) {
         errorSound.play();
         setTimeout(() => {
             resultElement.style.animation = 'none';
-        },100)
+        },1000)// 跑完淡入1s後，重置當前動畫效果
     }
 
 
@@ -124,6 +120,7 @@ function checkAnswer(selectedOption) {
             endingElement.style.display = 'inline';
             disableOptions(); // 調用禁止選項按鈕並更改鼠標指示樣式
             document.getElementById("thank").style.display = 'inline';
+            document.getElementById("thank").style.animation = 'fadeIn 1s forwards';
 
             if(score == questions.length ){
                 endingElement.textContent = "問答結束。\n恭喜你全答對，榮獲台華認證板金小老師，前途不可限量！\n\n11月咖啡展歡迎來找我們玩哦！"; 
