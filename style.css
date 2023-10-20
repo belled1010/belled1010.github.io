@@ -50,6 +50,8 @@ body {
 .quiz-container {
     background-image: url("img/game_title.png");
     background-size:100% auto;
+    background-repeat: no-repeat;
+    
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 10px;
