@@ -71,7 +71,7 @@ body {
 #question{
     background-color: transparent;
     font-family: 'Pixelify Sans', Arial, sans-serif;
-    font-size:x-large ;
+    font-size: x-large ;
     font-weight: bold;
     color: #2E1B5B;
     padding: 0px 0px 0px 0px;
@@ -187,8 +187,8 @@ body {
 }
 
 #ending {
-    width: 70%;
-    height: 10% ;
+    width: 72%;
+    height: 30% ;
 
     padding: 5px 15px 5px 15px;
     margin: 5px;
@@ -207,5 +207,84 @@ body {
     display: none;
 }
 
+@media (max-width: 360px) {
+    .quiz-container {
+        height: 70vh; 
+    }
+    #question {
+        font-size:large ;
+        font-weight: bold;
+        width: 73.47%;
+        height: 29.39% ;/* 適應小螢幕的題目樣式 */
+    }
+    .option {
+        font-size: smaller ;
+        font-weight: bold;
+        padding: 7px 11px 7px 11px;
+        margin: 8px;
+    }
+    #start{
+        font-size:44px ;  
+    }
+    #start_2{
+        font-size:22px ;  
+    }
+    .top{
+        margin: 45px 0px 20px 0px;
+    }
+    #ending{
+        /*padding: 5px 15px 5px 15px;
+        margin: 5px;*/
+    
+        font-size: smaller ; 
+    }
+    #thank{
+        font-size: 44px ;
+    }
+    #result{
+        font-size: 8px ;
+        left: 60%;
+    }
+    /* 這些樣式只會在螢幕寬度小於360px時應用 */
+}
 
-
+@media (max-width: 321px) {
+    .quiz-container {
+        height: 61vh; 
+    }
+    #question {
+        font-size:95% ;
+        font-weight: bold;
+        width: 73.47%;
+        height: 29.39% ;/* 適應小螢幕的題目樣式 */
+    }
+    .option {
+        font-size: 85% ;
+        font-weight: bold;
+        padding: 7px 11px 7px 11px;
+        margin: 5px;
+    }
+    #start{
+        font-size:40px ;  
+    }
+    #start_2{
+        font-size:20px ;  
+    }
+    .top{
+        margin: 45px 0px 13px 0px;
+    }
+    #ending{
+        padding: 1px 15px 5px 15px;
+        margin: 0px;
+    
+        font-size: smaller ; 
+    }
+    #thank{
+        font-size: 40px ;
+    }
+    #result{
+        font-size: 8px ;
+        left: 55%;
+    }
+    /* 這些樣式只會在螢幕寬度小於321px時應用 */
+}
