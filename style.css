@@ -301,7 +301,7 @@ body {
         font-size:24px ;  
     }
     .top{
-        margin: 70px 0px 5px 0px;
+        margin: 68px 0px 5px 0px;
     }
     #ending{
         font-size: medium ; 
@@ -338,7 +338,7 @@ body {
         font-size:22px ;  
     }
     .top{
-        margin: 55px 0px 12px 0px;
+        margin: 53px 0px 12px 0px;
     }
     #ending{
         padding: 3px 10px 5px 10px;
@@ -401,8 +401,8 @@ body {
     }
     #question {
         font-size:95% ;
-        width: 73.47%;
-        height: 29.39% ;/* 適應小螢幕的題目樣式 */
+        width: 65.5%;
+        height: 25.39% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
         font-size: 85% ;
