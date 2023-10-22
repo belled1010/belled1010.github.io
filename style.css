@@ -310,7 +310,7 @@ body {
     }
     #result{
         font-size: 10px ;
-        left: 60%;
+        left: 61%;
     }
     /* 這些樣式只會在螢幕寬度小於401px時應用 */
 }
@@ -386,7 +386,7 @@ body {
     }
     #result{
         font-size: 7px ;
-        left: 60%;
+        left: 58%;
     }
     /* 這些樣式只會在螢幕寬度小於341px時應用 */
 }
