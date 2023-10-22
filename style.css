@@ -65,7 +65,7 @@ body {
 .top{
     width: 80%;
     height: 19%;
-    margin: 80px 0px 15px 0px;
+    margin: 80px 0px 10px 0px;
 }
 #question{
     background-color: transparent;
@@ -205,7 +205,6 @@ body {
     white-space: pre-line;
     display: none;
 }
-
 
 @media (max-width: 401px) {
     .quiz-container {
