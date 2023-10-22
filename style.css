@@ -205,7 +205,6 @@ body {
     white-space: pre-line;
     display: none;
 }
-/* 123*/
 
 @media (max-width: 401px) {
     .quiz-container {
