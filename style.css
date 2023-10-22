@@ -121,10 +121,10 @@ body {
 
     font-weight: bold;
     color: rgb(43, 0, 184);
-    text-shadow: -1px -1px 0 #efe4d1,
-    1px -1px 0 #efe4d1,
-    -1px 1px 0 #efe4d1,
-    1px 1px 0 #efe4d1;
+    text-shadow: -1px -1px 3px #efe4d1,
+    1px -1px 3px #efe4d1,
+    -1px 1px 3px #efe4d1,
+    1px 1px 3px #efe4d1;
     
     margin-top: 10px;
     position: absolute;
@@ -303,7 +303,7 @@ body {
         font-size:24px ;  
     }
     .top{
-        margin: 70px 0px 7px 0px;
+        margin: 70px 0px 5px 0px;
     }
     #ending{
         font-size: medium ; 
@@ -331,7 +331,7 @@ body {
     .option {
         font-size: smaller ;
         padding: 7px 11px 7px 11px;
-        margin: 9px;
+        margin: 10px;
     }
     #start{
         font-size:44px ;  
@@ -340,7 +340,7 @@ body {
         font-size:22px ;  
     }
     .top{
-        margin: 55px 0px 18px 0px;
+        margin: 55px 0px 12px 0px;
     }
     #ending{
         padding: 3px 10px 5px 10px;
@@ -378,7 +378,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 55px 0px 12px 0px;
+        margin: 55px 0px 9px 0px;
     }
     #ending{
         padding: 1px 10px 5px 10px;
