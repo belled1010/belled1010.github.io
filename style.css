@@ -209,7 +209,7 @@ body {
 
 @media (max-width: 441px) {
     .quiz-container {
-        height: 86%; 
+        height: 90%; 
     }
     #question {
         font-size: 135% ;
@@ -228,7 +228,7 @@ body {
         font-size:28px ;  
     }
     .top{
-        margin: 63px 0px 14px 0px;
+        margin: 70px 0px 20px 0px;
     }
     #ending{
         font-size: large ; 
@@ -245,7 +245,7 @@ body {
 
 @media (max-width: 421px) {
     .quiz-container {
-        height: 82%; 
+        height: 85%; 
     }
     #question {
         font-size:large ;
@@ -264,7 +264,7 @@ body {
         font-size:26px ;  
     }
     .top{
-        margin: 63px 0px 14px 0px;
+        margin: 72px 0px 15px 0px;
     }
     #ending{
         font-size: medium ; 
@@ -281,7 +281,7 @@ body {
 
 @media (max-width: 401px) {
     .quiz-container {
-        height: 78%; 
+        height: 82%; 
     }
     #question {
         font-size:large ;
@@ -291,7 +291,7 @@ body {
     .option {
         font-size: medium ;
         padding: 7px 11px 7px 11px;
-        margin: 9px;
+        margin: 11.5px;
     }
     #start{
         font-size:49px ;  
@@ -300,7 +300,7 @@ body {
         font-size:24px ;  
     }
     .top{
-        margin: 60px 0px 15px 0px;
+        margin: 70px 0px 7px 0px;
     }
     #ending{
         font-size: medium ; 
@@ -317,7 +317,7 @@ body {
 
 @media (max-width: 361px) {
     .quiz-container {
-        height: 70%; 
+        height: 74%; 
     }
     #question {
         font-size:large ;
@@ -327,7 +327,7 @@ body {
     .option {
         font-size: smaller ;
         padding: 7px 11px 7px 11px;
-        margin: 8px;
+        margin: 9px;
     }
     #start{
         font-size:44px ;  
@@ -336,7 +336,7 @@ body {
         font-size:22px ;  
     }
     .top{
-        margin: 45px 0px 20px 0px;
+        margin: 55px 0px 18px 0px;
     }
     #ending{
         padding: 3px 10px 5px 10px;
@@ -354,7 +354,7 @@ body {
 
 @media (max-width: 341px) {
     .quiz-container {
-        height: 65%; 
+        height: 69.6%; 
     }
     #question {
         font-size:100% ;
@@ -364,7 +364,7 @@ body {
     .option {
         font-size: smaller ;
         padding: 7px 11px 7px 11px;
-        margin: 7px;
+        margin: 8px;
     }
     #start{
         font-size:41.5px ;  
@@ -373,7 +373,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 45px 0px 15px 0px;
+        margin: 55px 0px 12px 0px;
     }
     #ending{
         padding: 1px 10px 5px 10px;
@@ -393,7 +393,7 @@ body {
 
 @media (max-width: 321px) {
     .quiz-container {
-        height: 61%; 
+        height: 65.5%; 
     }
     #question {
         font-size:95% ;
@@ -403,7 +403,7 @@ body {
     .option {
         font-size: 85% ;
         padding: 7px 11px 7px 11px;
-        margin: 5px;
+        margin: 7px;
     }
     #start{
         font-size:40px ;  
@@ -412,7 +412,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 45px 0px 13px 0px;
+        margin: 55px 0px 4px 0px;
     }
     #ending{
         padding: 1px 15px 5px 15px;
