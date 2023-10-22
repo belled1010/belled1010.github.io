@@ -218,7 +218,7 @@ body {
         height: 36% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: 105% ;
+        font-size: 17px ;
         padding: 8px 12px 8px 12px;
         margin: 12px;
     }
@@ -254,7 +254,7 @@ body {
         height: 34% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: medium ;
+        font-size: 16px ;
         padding: 8px 12px 8px 12px;
         margin: 11px;
     }
@@ -290,7 +290,7 @@ body {
         height: 32.65% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: medium ;
+        font-size: 15px ;
         padding: 7px 11px 7px 11px;
         margin: 11.5px;
     }
@@ -301,7 +301,7 @@ body {
         font-size:24px ;  
     }
     .top{
-        margin: 68px 0px 5px 0px;
+        margin: 70px 0px 5px 0px;
     }
     #ending{
         font-size: medium ; 
@@ -327,7 +327,7 @@ body {
         height: 29.39% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: 95% ;
+        font-size: 15px ;
         padding: 6px 10px 6px 10px;
         margin: 10px;
     }
@@ -338,7 +338,7 @@ body {
         font-size:22px ;  
     }
     .top{
-        margin: 53px 0px 12px 0px;
+        margin: 55px 0px 12px 0px;
     }
     #ending{
         padding: 3px 10px 5px 10px;
@@ -365,7 +365,7 @@ body {
         height: 27.76% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: 90% ;
+        font-size: 14px ;
         padding: 6px 10px 6px 10px;
         margin: 9px;
     }
@@ -405,7 +405,7 @@ body {
         height: 25.39% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: 85% ;
+        font-size: 13px ;
         padding: 5px 9px 5px 9px;
         margin: 9px;
     }
