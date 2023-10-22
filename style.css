@@ -309,7 +309,7 @@ body {
         font-size: 47px ;
     }
     #result{
-        font-size: 10px ;
+        font-size: 11px ;
         left: 61%;
     }
     /* 這些樣式只會在螢幕寬度小於401px時應用 */
@@ -346,7 +346,7 @@ body {
         font-size: 44px ;
     }
     #result{
-        font-size: 8px ;
+        font-size: 9px ;
         left: 60%;
     }
     /* 這些樣式只會在螢幕寬度小於361px時應用 */
@@ -385,7 +385,7 @@ body {
         font-size: 41.5px ;
     }
     #result{
-        font-size: 7px ;
+        font-size: 8px ;
         left: 58%;
     }
     /* 這些樣式只會在螢幕寬度小於341px時應用 */
@@ -425,7 +425,7 @@ body {
     }
     #result{
         font-size: 7px ;
-        left: 55%;
+        left: 58%;
     }
     /* 這些樣式只會在螢幕寬度小於321px時應用 */
 }
