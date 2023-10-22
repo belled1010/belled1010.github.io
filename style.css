@@ -129,7 +129,7 @@ body {
     margin-top: 10px;
     position: absolute;
     top: 93%; /* 定位到容器的垂直下方 */
-    left: 63%; /* 定位到容器的水平中間偏右 */
+    left: 65%; /* 定位到容器的水平中間偏右 */
     display: none;
 }
 
@@ -239,7 +239,6 @@ body {
     }
     #result{
         font-size: 15px ;
-        left: 63%;
     }
     /* 這些樣式只會在螢幕寬度小於441px時應用 */
 }
@@ -266,7 +265,7 @@ body {
         font-size:26px ;  
     }
     .top{
-        margin: 72px 0px 15px 0px;
+        margin: 72px 0px 10px 0px;
     }
     #ending{
         font-size: medium ; 
@@ -276,7 +275,6 @@ body {
     }
     #result{
         font-size: 13px ;
-        left: 63%;
     }
     /* 這些樣式只會在螢幕寬度小於421px時應用 */
 }
@@ -313,7 +311,7 @@ body {
     }
     #result{
         font-size: 11px ;
-        left: 61%;
+        left: 60%;
     }
     /* 這些樣式只會在螢幕寬度小於401px時應用 */
 }
@@ -329,8 +327,8 @@ body {
         height: 29.39% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: smaller ;
-        padding: 7px 11px 7px 11px;
+        font-size: 95% ;
+        padding: 6px 10px 6px 10px;
         margin: 10px;
     }
     #start{
@@ -362,14 +360,14 @@ body {
         height: 69.6%; 
     }
     #question {
-        font-size:100% ;
+        font-size: 100% ;
         width: 69.38%;
         height: 27.76% ;/* 適應小螢幕的題目樣式 */
     }
     .option {
-        font-size: smaller ;
-        padding: 7px 11px 7px 11px;
-        margin: 8px;
+        font-size: 90% ;
+        padding: 6px 10px 6px 10px;
+        margin: 9px;
     }
     #start{
         font-size:41.5px ;  
@@ -391,7 +389,7 @@ body {
     }
     #result{
         font-size: 8px ;
-        left: 58%;
+        left: 60%;
     }
     /* 這些樣式只會在螢幕寬度小於341px時應用 */
 }
@@ -408,8 +406,8 @@ body {
     }
     .option {
         font-size: 85% ;
-        padding: 7px 11px 7px 11px;
-        margin: 7px;
+        padding: 5px 9px 5px 9px;
+        margin: 9px;
     }
     #start{
         font-size:40px ;  
@@ -418,7 +416,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 55px 0px 4px 0px;
+        margin: 55px 0px 6px 0px;
     }
     #ending{
         padding: 1px 15px 5px 15px;
@@ -431,7 +429,7 @@ body {
     }
     #result{
         font-size: 7px ;
-        left: 58%;
+        left: 60%;
     }
     /* 這些樣式只會在螢幕寬度小於321px時應用 */
 }
