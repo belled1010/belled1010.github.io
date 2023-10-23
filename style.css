@@ -371,7 +371,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 55px 0px 9px 0px;
+        margin: 55px 0px 7px 0px;
     }
     #ending{
         padding: 1px 10px 5px 10px;
@@ -383,7 +383,7 @@ body {
         font-size: 41.5px ;
     }
     #result{
-        font-size: 8px ;
+        font-size: 9px ;
         left: 63%;
     }
     /* 這些樣式只會在螢幕寬度小於341px時應用 */
