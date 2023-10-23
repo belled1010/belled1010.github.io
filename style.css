@@ -66,7 +66,7 @@ body {
 .top{
     width: 80%;
     height: 19%;
-    margin: 80px 0px 10px 0px;
+    margin: 75px 0px 15px 0px;
 }
 #question{
     background-color: transparent;
@@ -369,7 +369,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 50px 0px 9px 0px;
+        margin: 50px 0px 8px 0px;
     }
     #ending{
         padding: 1px 10px 5px 10px;
@@ -408,7 +408,7 @@ body {
         font-size:20px ;  
     }
     .top{
-        margin: 50px 0px 9px 0px;
+        margin: 50px 0px 8px 0px;
     }
     #ending{
         padding: 1px 15px 5px 15px;
