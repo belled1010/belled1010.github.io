@@ -54,7 +54,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: solid 1px;
     width: 490px;
-    height: 100%;
+    aspect-ratio: 490 / 695 ;
     margin: 2px;
     display: flex;
     flex-direction: column;
@@ -210,7 +210,6 @@ body {
 @media (max-width: 441px) {
     .quiz-container {
         width: 440px; 
-        height: 90%; 
     }
     #question {
         font-size: 135% ;
@@ -246,7 +245,6 @@ body {
 @media (max-width: 421px) {
     .quiz-container {
         width: 420px; 
-        height: 86%; 
     }
     #question {
         font-size:large ;
@@ -282,7 +280,6 @@ body {
 @media (max-width: 401px) {
     .quiz-container {
         width: 400px; 
-        height: 82%; 
     }
     #question {
         font-size:large ;
@@ -317,8 +314,7 @@ body {
 
 @media (max-width: 361px) {
     .quiz-container {
-        width: 360px; 
-        height: 74%; 
+        width: 360px;  
     }
     #question {
         font-size:large ;
@@ -329,6 +325,7 @@ body {
         font-size: 15px ;
         padding: 6px 10px 6px 10px;
         margin: 10px;
+        background-color: rgb(255, 0, 0);
     }
     #start{
         font-size:44px ;  
@@ -355,7 +352,6 @@ body {
 @media (max-width: 341px) {
     .quiz-container {
         width: 340px; 
-        height: 69.6%; 
     }
     #question {
         font-size: 100% ;
@@ -366,6 +362,7 @@ body {
         font-size: 14px ;
         padding: 6px 10px 6px 10px;
         margin: 9px;
+        background-color: aqua;
     }
     #start{
         font-size:41.5px ;  
@@ -394,8 +391,7 @@ body {
 
 @media (max-width: 321px) {
     .quiz-container {
-        width: 320px; 
-        height: 65.5%; 
+        width: 320px;  
     }
     #question {
         font-size:95% ;
