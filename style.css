@@ -325,7 +325,6 @@ body {
         font-size: 15px ;
         padding: 6px 10px 6px 10px;
         margin: 10px;
-        background-color: rgb(255, 0, 0);
     }
     #start{
         font-size:44px ;  
@@ -362,7 +361,6 @@ body {
         font-size: 14px ;
         padding: 6px 10px 6px 10px;
         margin: 9px;
-        background-color: aqua;
     }
     #start{
         font-size:41.5px ;  
